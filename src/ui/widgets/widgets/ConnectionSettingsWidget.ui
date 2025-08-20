@@ -1,0 +1,39 @@
+<ui version="4.0">
+ <author/>
+ <comment/>
+ <exportmacro/>
+ <class>ConnectionSettingsWidget</class>
+ <widget class="QWidget" name="ConnectionSettingsWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Connection Settings</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_kernel">
+     <property name="text">
+      <string>Preferred Kernel (override)</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QComboBox" name="connectionPreferredKernelCombo">
+     <item><property name="text"><string>(inherit global)</string></property></item>
+     <item><property name="text"><string>sing-box</string></property></item>
+     <item><property name="text"><string>mihomo</string></property></item>
+     <item><property name="text"><string>xray</string></property></item>
+     <item><property name="text"><string>v2ray</string></property></item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <pixmapfunction/>
+ <connections/>
+</ui>

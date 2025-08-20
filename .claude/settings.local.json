@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(unzip -q libuv.zip)",
+      "Bash(ls -la)",
+      "Bash(curl -L https://curl.se/download/curl-8.11.1.zip -o curl.zip)",
+      "Bash(curl:*)",
+      "Bash(./mihomo-windows-amd64.exe -v)",
+      "Bash(rm:*)",
+      "Bash(cmake:*)",
+      "Bash(mkdir build-test)",
+      "Bash(g++:*)",
+      "Bash(qmake:*)"
+    ],
+    "deny": []
+  }
+}
